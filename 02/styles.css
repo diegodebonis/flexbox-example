@@ -1,0 +1,44 @@
+/*******************/
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 100%; */
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+  /* flex-direction: column; */
+}
+
+.container > div {
+  width: 300px;
+}
+
+/* .logout {
+  align-self: flex-start;
+}
+
+.home {
+  align-self: flex-end;
+} */
+
+/* .home,
+.logout {
+  flex: 1;
+} */
+
+/* .search {
+  flex: 2;
+} */
+
+/* .container > div {
+  flex: 1; /* flex-grow flex-shrink flex-basis *
+}
+
+.container > .search {
+  flex: 2;
+} */
+
+/* .home {
+  margin-right: auto;
+} */
