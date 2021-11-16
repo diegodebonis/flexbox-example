@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+html,
+body {
+  background: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+
+h1,
+h2,
+p {
+  margin: 1.6rem 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+
+.left-content {
+  flex-basis: 50%;
+}
+
+.left-content p {
+  margin: 10px 0;
+}
+
+.left-content h2 {
+  margin: 10px 0;
+}
+
+.right-content {
+  flex-basis: 30%;
+  display: flex;
+}
+
+.right-content .card {
+  background: whitesmoke;
+  color: #222;
+  padding: 3rem 8rem;
+  margin: 1.6rem;
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .right-content {
+    flex-basis: 50%;
+  }
+
+  .right-content .card {
+    padding: 2rem;
+  }
+}
