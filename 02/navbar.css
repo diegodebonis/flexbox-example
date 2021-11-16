@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+html,
+body {
+  background: #ffeead;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search input {
+  width: auto;
+}
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  padding: 10px;
+}
+
+.search {
+  flex: 1;
+}
+
+.container > li {
+  border: none;
+  background: #88d8b0;
+  font-size: 1em;
+  color: #ffeead;
+}
+
+.container input {
+  border: none;
+  background: #88d8b0;
+  font-size: 1em;
+}
+
+.container input::placeholder {
+  color: #ffeead;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .container > li {
+    flex: 1 1 50%;
+  }
+}
