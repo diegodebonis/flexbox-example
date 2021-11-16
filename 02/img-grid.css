@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+html,
+body {
+  background: #ffeead;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container > div {
+  flex: 1 1 150px;
+}
